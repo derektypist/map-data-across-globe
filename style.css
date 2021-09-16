@@ -1,0 +1,44 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Body */
+body {
+  font-family: "Roboto", Arial, Verdana, sans-serif;
+}
+
+/* Background Layer */
+.background-layer {
+  background: black;
+  color: white;
+  border-radius: 1em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Heading H1 */
+h1 {
+  text-align: center;
+}
+
+/* Box - Background in Little Boy Blue */
+.box {
+  width: 1000px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6f9fd8;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  color: #363945;
+  opacity: 0;
+  background: white;
+  width: 200px;
+  padding: 5px;
+  pointer-events: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
